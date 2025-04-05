@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter - Login</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main-container">
+    <div class="title-container">
+      <h1 class="title">Welcome to Currency Converter! 💰💱</h1>
+    </div>
+    <div class="login-container">
+      <div class="glass-container">
+        <form id="loginForm">
+          <h2 class="heading">WELCOME BACK</h2>
+          <div class="input-container">
+            <input type="email" id="email" placeholder="Email" required>
+          </div>
+          <div class="input-container">
+            <input type="password" id="password" placeholder="Password" required>
+          </div>
+          <button type="submit" class="login-btn">Sign in →</button>
+        </form>
+        <form id="signupForm" style="display: none;">
+          <h2 class="heading">CREATE AN ACCOUNT</h2>
+          <div class="input-container">
+            <input type="text" id="signupUsername" placeholder="Username" required>
+          </div>
+          <div class="input-container">
+            <input type="email" id="signupEmail" placeholder="Email" required>
+          </div>
+          <div class="input-container">
+            <input type="password" id="signupPassword" placeholder="Password" required>
+          </div>
+         
+          <button type="submit" class="login-btn">Sign Up →</button>
+        </form>
+        <p class="signup-text">
+          Don't have an account? <a href="#" id="signupLink">Sign Up</a>
+          <a href="#" id="loginLink" style="display: none;">Login</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
